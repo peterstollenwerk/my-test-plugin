@@ -1,0 +1,32 @@
+{
+    "name": "peterstollenwerk/auf-kirby-plugin-template",
+    "description": "auf kirby plugin template",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Stollenwerk",
+            "email": "peter.stollenwerk@aufdesign.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "auf\\": "lib/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {
+        "getkirby/composer-installer": "^1.1.4"
+    },
+    "require-dev": {
+        "getkirby/cms": "^3.4.2",
+        "phpunit/phpunit": "^9.3.8",
+        "spatie/phpunit-watcher": "^1.10"
+    },
+    "scripts": {
+        "test": "/Applications/MAMP/bin/php/php7.4.2/bin/php ./vendor/bin/phpunit  --bootstrap ./tests/bootstrap.php --testdox ./tests/suites --colors=always",
+        "watch": "./vendor/bin/phpunit-watcher watch  --bootstrap ./tests/bootstrap.php --testdox ./tests/suites --colors=always"
+    }
+}
