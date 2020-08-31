@@ -1,7 +1,7 @@
 {
     "name": "peterstollenwerk/my-test-plugin",
     "description": "test",
-    "type": "plugin",
+    "type": "kirby-plugin",
     "license": "MIT",
     "authors": [
         {
