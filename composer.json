@@ -1,7 +1,7 @@
 {
-    "name": "peterstollenwerk/auf-kirby-plugin-template",
-    "description": "auf kirby plugin template",
-    "type": "kirby-plugin",
+    "name": "peterstollenwerk/my-test-plugin",
+    "description": "test",
+    "type": "plugin",
     "license": "MIT",
     "authors": [
         {
